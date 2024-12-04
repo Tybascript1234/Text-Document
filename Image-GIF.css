@@ -1,0 +1,247 @@
+.Image-GIF {
+    animation: show-buttons 0.3s;
+    /* animation: show-buttons 0.4 */
+    transition: ease 0.3s;
+    /* display: none; */
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    height: 600px;
+    width: 850px;
+    border-radius: 16px;
+    background-color: white;
+    transform: translate(-50%, 50%);
+    z-index: 980;
+    box-shadow: 0px 2px 10px #ccc;
+    overflow: hidden;
+}
+.Image-GIF-div {
+    padding: 20px;
+    height: -webkit-fill-available;
+    overflow-y: auto;
+}
+.cbn-gis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #6774831c;
+}
+.gif-text {
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    /* width: 81px; */
+    display: flex;
+    align-items: center;
+}
+.gif-text button {
+    margin-right: 8px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(209deg, var(--text-secondary) 0%, var(--custom-accent) 45%, var(--custom-secondary) 82%);
+}
+.gif-text button span {
+    color: white;
+}
+.gif-button {
+    width: 122.7px;
+    text-align: right;
+}
+.gif-button .gix {
+    transition: ease 0.2s;
+    color: #677483;
+    background: #f6f7f9;
+    border: solid 1px #00000000;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+}
+.gif-button button:active {
+    transition: ease 0.0s;
+    transform: scale(0.90);
+}
+.gif-button .xig {
+    background-color: #fff;
+    margin-right: 5px;
+}
+.gif-div2 {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background: aliceblue;
+    /* overflow: hidden; */
+}
+.gif-div2 div {
+    cursor: pointer;
+    padding: 8px 14px;
+    font-size: 15px;
+    color: #0088ff;
+    height: unset;
+    display: inline-block;
+}
+.omng {
+    transition: ease 0.3s;
+    font-size: 15px;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(209deg, var(--text-secondary) 0%, var(--custom-accent) 45%, var(--custom-secondary) 82%);
+}
+.omng:active {
+    /* transform: scale(1); */
+    filter: opacity(0.7);
+}
+
+.gifs {
+    display: flex;
+    width: 100%;
+    height: 91%;
+    /* position: relative; */
+}
+
+/* gif-ee1 */
+.gif-ee1 {
+    display: none;
+    width: 55px;
+    box-shadow: 1px 0px 0px #6774831c;
+}
+
+/* gif-ee */
+.gif-ee {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+    padding-top: 25px;
+    padding-bottom: 10px;
+    /* padding-right: 10px; */
+    flex-wrap: wrap;
+    margin-top: 4px;
+    width: 100%; /*93%*/
+    height: max-content;
+}
+.gif-ee-button {
+    font-size: 15px;
+    user-select: none;
+    transition: ease 0.1s;
+    border: solid 2px #cce;
+    background: #00000000;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 160px;
+    margin: 5px;
+    margin-top: 0;
+    color: #677483;
+}
+.gif-ee-button img {
+    user-select: none;
+}
+.gif-ee-button:hover {
+    background-color: rgba(186, 186, 252, 0.247);
+}
+.Upload-image div {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.Upload-image div img {
+    width: 56px;
+    height: 56px;
+    filter: opacity(0.7);
+    transition: ease 0.3s;
+}
+.gif-ee-button:hover .Upload-image div img {
+    filter: opacity(1);
+}
+.gif-ee-button:active .Upload-image div img {
+    transition: ease 0.1s;
+    transform: scale(0.90);
+}
+/* الحجم الجديد عند تغيير الفئة */
+.fullscreen-size {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.fullscreen-size .gif-ee {
+    padding-left: 0;
+    padding-top: 28px;
+    margin-top: 48px;
+}
+.fullscreen-size .cbn-gis {
+    margin-right: 20px;
+    width: -webkit-fill-available;
+    /* flex: 1 1 auto; */
+    position: absolute;
+}
+/* الطبقة المظللة */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 7%);
+    z-index: 500;
+    display: none; /* مخفي في البداية */
+}
+
+/* page-gif */
+.page-gif {
+    animation: show-buttons 0.3s;
+    position: absolute;
+    z-index: 25;
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    display: none;
+}
+.page-gif .cbn-gis {
+    margin-right: 0;
+}
+.gif-vv {
+    height: 91.3%;
+    position: relative;
+}
+.gif-vv-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+.gif-vv-button button {
+    transition: ease 0.3s;
+    font-size: 15px;
+    height: 33px;
+    margin-left: 8px;
+    padding: 0px 25px;
+    border-radius: 4px;
+    background-color: white;
+    border: solid 1px #edeef0;
+    color: #677483;
+}
+.gif-vv-button button:hover {
+    background-color: #f6f7f94a;
+}
+.gif-vv-button button:active {
+    transition: ease 0.1s;
+    filter: opacity(0.7);
+    background-color: #f6f7f96e;
+    border: solid 1px #e4e4e49f;
+    /* transform: scale(0.97); */
+}

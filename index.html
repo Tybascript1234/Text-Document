@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Document</title>
+    <link rel="icon" href="image/Text Docudent-svg.svg">
+    <link rel="stylesheet" href="noon.css">
+    <link rel="stylesheet" href="phone-scren.css">
+    <link rel="stylesheet" href="Image-GIF.css">
+    <link rel="stylesheet" href="Mode.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="Add-background.css">
+    <link rel="stylesheet" href="vi.css">
+    <script src="noon.js"></script>
+    <script src="noon2.js"></script>
+    <script src="mosque.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-chubby/css/uicons-regular-chubby.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!-- ------------ -->
+ <!-- تضمين مكتبة Popper.js الضرورية لـ tippy.js -->
+ <script src="https://unpkg.com/@popperjs/core@2"></script>
+ <!-- تضمين مكتبة Tippy.js -->
+ <script src="https://unpkg.com/tippy.js@6"></script>
+ <!-- تضمين CSS الخاص بـ Tippy.js (اختياري) -->
+ <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+ <!-- الأذان -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+</head>
+<body>
+    
+        <div class="Text-Document">
+            <!-- Reload -->
+             <div class="Reload" id="Reload-logo">
+                <div class="Reload-div">
+                    <div class="i-freem">
+                        <div class="Reload-div-logo">
+                            <div class="logo">
+                                <span class="logo-div">
+                                    <span class="logo1"><a></a></span>
+                                    <span class="logo2"><a></a></span>
+                                    <span class="logo3"><a></a></span>
+                                </span>
+                            </div>
+                            <div>
+                                Text Document
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ome"><span id="progress-bar"></span></div>
+                    <br>
+                    <div class="hom">
+                        <button onclick="openInternetSettings()">WiFi settings</button>
+                        <button onclick="reloadPage()">Reload</button>
+                    </div>
+                    <br>
+                    <div id="status-text" style="color: rgb(117, 117, 117);">Internet disconnected.</div>
+                </div>
+             </div>
+            <!-- ----------------------- -->
+            <div class="Text-Document1" id="toggleDiv2">
+                <div style="overflow: none;">
+                <div class="Text-Document2-div">
+                    <div class="menu_List cc2 cc3" data-id="1">
+                        <div class="Text-Document1-list">
+                            <button class="Text-Document1-button chat-button"><ion-icon name="list-outline"></ion-icon></button>
+                        </div>
+                        <div class="div-menu-div menu_List_div rr">
+                            <ul>
+                                <li>Rectangular <ion-icon name="list-outline"></ion-icon></li>
+                                <li>Square <ion-icon name="grid-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <label for="innerDiv" class="Text-Document1-input" id="myDiv123" onclick="makeAbsolute()">
+                        <ion-icon class="Text-Document1-sea" name="search-outline"></ion-icon>
+                        <input type="text" placeholder="Search for file">
+                        <div id="innerDiv" class="ripple-btn" onmousedown="createRipple(event)"></div>
+                        <button id="resetBtn" onclick="resetPosition(event)" style="display: none;" class="material-symbols-outlined kks aus">arrow_forward</button>
+                    </label>
+                    <div class="Text-Document1-list">
+                        <button class="Text-Document1-button material-symbols-outlined tooltipButton display-none" style="font-size: 24px;display: none;" id="" data-tooltip="Full screen">fullscreen</button>
+
+                        <div class="menu_List cc2" data-id="6">
+                            <button class="Text-Document1-button chat-button"><ion-icon name="moon-outline"></ion-icon></button>
+                            <div class="div-menu-div menu_List_div cvm rr">
+                                <ul>
+                                    <li id="system-mode" class="menu_List_div_li">Use device theme</li>
+                                    <li id="dark-mode">Dark theme</li>
+                                    <li id="light-mode">Light theme</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Text-Document1-list">
+                            <div class="menu_List cc2" data-id="8">
+                                <button class="Text-Document1-button chat-button" style="margin: 0;"><ion-icon name="language-outline"></ion-icon></button>
+                                <div class="div-menu-div menu_List_div cvm rr">
+                                    <ul>
+                                        <li class="menu_List_div_li">English<ion-icon class="cv"name="checkmark-outline"></ion-icon></li>
+                                        <li>Arabic</li>
+                                        <li>Turkish</li>
+                                        <li>Urdu</li>
+                                        <li>French</li>
+                                        <li>Japanese</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="overflow">
+                <div class="pag-file coco2">
+                    <div class="pag-file-text"><i class="fi fi-br-plus"></i></div>
+                    <div class="pag-file-button">New project</div>
+                 </div>
+                 <blog><span>My projects</span></blog>
+                 <gol></gol>
+                <!-- 1 -->
+                 <div class="pag-file co coco">
+                    <div class="car">
+                        <div><span class="material-symbols-outlined"> drag_indicator </span></div>
+                        <div class="pag-file-text tooltipButton" data-tooltip="The first project">The first project</div>
+                    </div>
+                    <div class="pag-file-button">
+                        <button class="tooltipButton" data-tooltip="Delete"><i class="fi fi-ss-trash"></i></button>
+                        <button class="tooltipButton" data-tooltip="Download"><i class="fi fi-br-download"></i></button>
+                        <button class="tooltipButton" data-tooltip="Share"><i class="fi fi-sr-share"></i></button>
+                        <button class="tooltipButton" data-tooltip="Edit"><i class="fi fi-sr-pencil"></i></button>
+                    </div>
+                 </div>
+                 <!-- stop -->
+                  <div class="stop">
+                    <div class="stop-div">
+                        <div class="stop-dive"><div class="stop-divs"><a><div>20%</div></a></div><X></X></div>
+                        <!-- -- -->
+                        <span class="stop-span1"></span>
+                    <span class="stop-span2"></span>
+                    <span class="stop-span3" style="margin-right: 0;"></span>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            <div class="good cor">Add a new project</div>
+            </div>
+            <div class="Text-Document2">
+                <div class="Text-Document2-div">
+                    <div class="menu_List cc3 ki" data-id="2">
+                        <div class="Text-Document2-div-acunt cor">
+                            <div class="logo">
+                            <span class="logo-div">
+                                <span class="logo1"><a></a></span>
+                                <span class="logo2"><a></a></span>
+                                <span class="logo3"><a></a></span>
+                            </span>
+                        </div>
+                            <div class="zoho">Text Document</div>
+                            <div class="div-button-menu chat-button" id="open-logo"><ion-icon id="m" name="caret-down-outline"></ion-icon></div>
+                        </div>
+                        <div class="div-menu-div menu_List_div rr">
+                            <ul>
+                                <li>Copy link</li>
+                                <li>Share link</li>
+                                <li>Open in new tab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Text-Document2-div-button">
+                        <div class="div-menu menu_List cc cc2" data-id="3">
+                            <button class="Text-Document2-arrow tooltipButton chat-button" data-tooltip="Tools list"><span class="material-symbols-outlined"> more_vert </span></button>
+                            <div class="div-menu-div menu_List_div tt rr">
+                                <ul>
+                                        <li class="oo display-block"><span class="material-symbols-outlined icon"> refresh </span></li>
+                                        <li class="oo display-block"><span class="material-symbols-outlined icon"> arrow_forward </span></li>
+                                        <li class="oo display-block" style="box-shadow: 0px 1px 0px #f6f7f9;"><span class="material-symbols-outlined icon"> arrow_back </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> upload_file </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> format_textdirection_r_to_l </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> format_textdirection_l_to_r </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon">format_align_left</span><div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline" role="img" class="md hydrated"></ion-icon></div></li>
+                                        <li class="oo">16<div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline" role="img" class="md hydrated"></ion-icon></div></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> text_fields </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> ink_highlighter </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> format_color_text </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> format_underlined </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> format_italic </span></li>
+                                        <li class="oo"><span class="material-symbols-outlined icon"> format_bold </span</li>
+                                        <li class="oo display-block">Ari<div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline" role="img" class="md hydrated"></ion-icon></div></li>
+                                        <li class="oo display-block"><span class="material-symbols-outlined icon"> download </span><div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline" role="img" class="md hydrated"></ion-icon></div></li>
+                                    <li><span class="material-symbols-outlined icon"> content_copy </span></li>
+                                    <li><span class="material-symbols-outlined icon">link</span></li>
+                                    <li><span class="material-symbols-outlined icon"> image </span></li>
+                                    <li><span class="material-symbols-outlined icon"> interests </span></li>
+                                    <li><span class="material-symbols-outlined icon"> imagesearch_roller </span></li>
+                                    <li><span class="material-symbols-outlined icon"> spellcheck </span></li>
+                                    <li><span class="material-symbols-outlined icon"> print </span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="div-button">
+                            <button class="tooltipButton display-nones display-C" data-tooltip="Backtrack"><span class="material-symbols-outlined"> arrow_back </span></button>
+                            <button class="tooltipButton display-nones display-C" data-tooltip="Progress"><span class="material-symbols-outlined"> arrow_forward </span></button>
+                            <button class="tooltipButton display-nones display-C" data-tooltip="Redo"><span class="material-symbols-outlined"> refresh </span></button>
+                            <div class="div-menu menu_List cc display-nones display-C" data-id="3">
+                            <button class="tooltipButton" data-tooltip="Download file"><span class="material-symbols-outlined"> download </span> <a class="zoho">Text</a> <div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline"></ion-icon></div></button>
+                            <div class="div-menu-div menu_List_div tt">
+                                <ul>
+                                    <li class="menu_List_div_li">Text<ion-icon class="cv" name="checkmark-outline"></ion-icon></li>
+                                    <li>pdf</li>
+                                    <li>Exil</li>
+                                    <li>Word</li>
+                                    <gol></gol>
+                                    <li>png</li>
+                                    <!-- <li></li> -->
+                                    <li>jpg</li>
+                                </ul>
+                            </div>
+                        </div>
+                            
+                            <div class="div-menu menu_List cc2 display-nones display-C" data-id="7">
+                                <button class="ccit tooltipButton" data-tooltip="Font type"><span class="zoho">Arial</span> <div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline"></ion-icon></div></button>
+                                <div class="div-menu-div menu_List_div rr">
+                                    <ul>
+                                        <li class="menu_List_div_li">Arial<ion-icon class="cv" name="checkmark-outline"></ion-icon></li>
+                                        <li>Verdana</li>
+                                        <li>Tahoma</li>
+                                        <li>Times New Roman</li>
+                                        <li>Georgia</li>
+                                        <li>Courier New</li>
+                                        <li>Comic Sans MS</li>
+                                        <li>Impact</li>
+                                        <li>Lucida Console</li>
+                                        <li>Trebuchet MS</li>
+                                        <li>Helvetica</li>
+                                        <li>Consolas</li>
+                                        <li>Segoe UI</li>
+                                        <li>Calibre</li>
+                                        <li>Garamond</li>
+                                        <li>Fira Sans</li>
+                                        <li>Roboto</li>
+                                        <li>Open Sans</li>
+                                        <li>Montserrat</li>
+                                        <li>Lora</li>
+                                        <li>Merriweather</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="tooltipButton" data-tooltip="Bold"><span class="material-symbols-outlined"> format_bold </span></button>
+                            <button class="tooltipButton" data-tooltip="Oblique"><span class="material-symbols-outlined"> format_italic </span></button>
+                            <button class="tooltipButton" data-tooltip="Underline"><span class="material-symbols-outlined"> format_underlined </span></button>
+                            <div class="div-menu menu_List" data-id="12">
+                                <button class="tooltipButton chat-button" data-tooltip="Text color"><span class="material-symbols-outlined"> format_color_text </span></button>
+                                <div class="div-menu-div menu_List_div tt">
+                                    <ul class="color-t">
+                                        <div class="text-distinctive-color">
+                                            <span class="text-distinctive-span">Text color</span>
+                                            <div class="text-distinctive-div">
+                                                <a style="background-color: #9e82cd;"></a>
+                                                <a style="background-color: #e25283"></a>
+                                                <a style="background-color: #ff776b"></a>
+                                                <a style="background-color: #ffd662"></a>
+                                                <a style="background-color: #32c581"></a>
+                                                <a style="background-color: #ff4646"></a>
+                                                <a style="background-color: #000000"></a>
+                                                <a style="background-color: burlywood"></a>
+                                                <a style="background-color: aquamarine"></a>
+                                                <a style="background-color: coral"></a>
+                                                <a style="background-color: #c1c1c1"></a>
+                                                <a style="background-color: lightskyblue"></a>
+                                                <a style="background-color: #559bff"></a>
+                                                <a style="background-color: #fff"></a>
+                                                <label for="colors" style="background: linear-gradient(to right, #ffd662, #e25283, #9e82cd)"></label>
+                                                <input type="color" id="colors" style="display: none;">
+                                                <a><ion-icon style="position: absolute;" name="eyedrop" role="img" class="md hydrated" aria-label="eyedrop"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="div-menu menu_List" data-id="13">
+                                <button class="tooltipButton chat-button" data-tooltip="Distinctive color"><span class="material-symbols-outlined"> ink_highlighter </span></button>
+                                <div class="div-menu-div menu_List_div tt">
+                                    <ul class="color-t">
+                                        <div class="text-distinctive-color">
+                                            <span class="text-distinctive-span">Distinctive color</span>
+                                            <div class="text-distinctive-div">
+                                                <a style="background-color: #9e82cd;"></a>
+                                                <a style="background-color: #e25283"></a>
+                                                <a style="background-color: #ff776b"></a>
+                                                <a style="background-color: #ffd662"></a>
+                                                <a style="background-color: #32c581"></a>
+                                                <a style="background-color: #ff4646"></a>
+                                                <a style="background-color: #000000"></a>
+                                                <a style="background-color: burlywood"></a>
+                                                <a style="background-color: aquamarine"></a>
+                                                <a style="background-color: coral"></a>
+                                                <a style="background-color: #c1c1c1"></a>
+                                                <a style="background-color: lightskyblue"></a>
+                                                <a style="background-color: #559bff"></a>
+                                                <a style="background-color: #fff"></a>
+                                                <!-- <label for="colors"><a style="background: linear-gradient(to right, #ffd662, #e25283, #9e82cd)"></a></label>
+                                                <input type="color" id="colors" style="display: none;"> -->
+                                                <a><ion-icon style="position: absolute;" name="eyedrop" role="img" class="md hydrated" aria-label="eyedrop"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="tooltipButton" data-tooltip="Text size"><span class="material-symbols-outlined"> text_fields </span></button>
+                            <div class="div-menu menu_List cc2" data-id="4">
+                                <button class="tooltipButton" data-tooltip="Font size"><span> 16 </span> <div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline"></ion-icon></div></button>
+                                <div class="div-menu-div menu_List_div rr">
+                                    <div class="font-size-sem">
+                                            <div>
+                                                <button><ion-icon name="remove-outline"></ion-icon></button>
+                                                <input type="text" value="8" placeholder="0">
+                                                <button><ion-icon name="add-outline"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                        <gol style="margin: 0 16px;"></gol>
+                                    <ul>
+                                        <li class="menu_List_div_li">Font size 8<ion-icon class="cv" name="checkmark-outline"></ion-icon></li>
+                                        <li>Font size 9</li>
+                                        <li>Font size 10</li>
+                                        <li>Font size 11</li>
+                                        <li>Font size 12</li>
+                                        <li>Font size 14</li>
+                                        <li>Font size 18</li>
+                                        <li>Font size 24</li>
+                                        <li>Font size 30</li>
+                                        <li>Font size 36</li>
+                                        <li>Font size 48</li>
+                                        <li>Font size 60</li>
+                                        <li>Font size 72</li>
+                                        <li>Font size 96</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="div-menu menu_List cc" data-id="5">
+                                <button class="tooltipButton" data-tooltip="Alignment & Spacing"><span class="material-symbols-outlined">format_align_left</span> <div class="div-button-menu chat-button"><ion-icon id="m" name="caret-down-outline"></ion-icon></div></button>
+                                <div class="div-menu-div menu_List_div tt">
+                                    <ul>
+                                        <li class="menu_List_div_li"><span class="material-symbols-outlined">format_align_left</span> <ion-icon class="cv" name="checkmark-outline"></ion-icon></li>
+                                        <li><span class="material-symbols-outlined"> format_align_center </span></li>
+                                        <li><span class="material-symbols-outlined"> format_align_right </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="tooltipButton" data-tooltip="Set text direction from left"><span class="material-symbols-outlined"> format_textdirection_l_to_r </span></button>
+                            <button class="tooltipButton" data-tooltip="Set text direction from right"><span class="material-symbols-outlined"> format_textdirection_r_to_l </span></button>
+                            <button class="tooltipButton" data-tooltip="Magic tool"><ion-icon name="color-wand-outline" role="img" class="md hydrated" aria-label="color wand outline"></ion-icon></button>
+                            <label for="Upload_file" class="tooltipButton cvb" data-tooltip="Upload file"><span class="material-symbols-outlined"> upload_file </span></label>
+                            <input style="display: none;" type="file" id="Upload_file">
+                        </div>
+                        <button class="Text-Document2-arrow on" style="display: none;"><ion-icon name="caret-forward-outline"></ion-icon></button>
+                    </div>
+                </div>
+                <!-- New-tab -->
+                 <div class="New-tab" id="MainBackgroundDiv">
+                    <blog class="display-none"><span>All rights reserved to <a class="zoho">Text Document</a> Company</span></blog>
+                    <!-- New-tab-div -->
+                     <div class="new">
+                        <!-- 1 -->
+                        <div class="news" id="content">
+                             <div class="bon">
+                                <!-- add-new-tab -->
+                                  <div class="add-new-tab">
+                                    <button class="coco"><span class="material-symbols-outlined"> note_add </span></button>
+                                    <button class="coco"><span class="material-symbols-outlined"> keyboard </span></button>
+                                    <button class="coco"><i class="fi fi-sr-caret-up"></i></button>
+                                    <button class="coco"><i class="fi fi-br-caret-down"></i></button>
+                                  </div>
+                                <!-- add-new-tab -->
+                                 <div class="vip">
+                                    <div>
+                                        <button class="ripple-btn" onmousedown="createRipple(event)">Buy space</button>
+                                    </div>
+                                    <div class="vip-text">
+                                        <input type="text" value="1">
+                                    <div class="vip-text-div cor">
+                                        <span>20</span>/<a>1</a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                    <div class="New-tabs">
+                        <div class="New-tab-div">
+                           <div class="New-tab-div-name">
+                               <div class="New-tab-div-name-div"><input type="text" placeholder="Name project" value="The first project"><span>Page 1</span></div>
+                               <span class="mom tooltipButton display-none" data-tooltip="Project creation date"><span>8/10/2024</span> - <span>9:27 PM</span></span>
+                               <div class="name-sos">
+                                <button class="tooltipButton" data-tooltip="Normal"></button>
+                                <button class="name-sos2 tooltipButton" data-tooltip="Lines"><div><img src="https://png.pngtree.com/thumb_back/fh260/background/20220930/pngtree-colorful-striped-grid-paper-for-school-or-wallpaper-photo-image_35459728.jpg" alt=""></div></button>
+                                <button class="name-sos3 tooltipButton" data-tooltip="Squares"></button>
+                               </div>
+                           </div>
+                           <div class="New-tab-div-text" contenteditable="true">The first project</div>
+                           <button class="New-tab-r-b New-tab-r-b2 tooltipButton" data-tooltip="Height 1139px"></button>
+                           <button class="New-tab-r-b tooltipButton" data-tooltip="Display 816px"></button>
+                        </div>
+                    </div>
+                        <!-- 3 -->
+                        <!-- style="display: flex;justify-content: right;" -->
+                         <div class="news display-none" id="content2">
+                            <div class="bon" style="display: flex;justify-content: right;">
+                                <div class="bon-div-file">
+                                        <div class="bon-div-text">
+                                            <div class="bon-div-text-div">
+                                                <span class="tooltipButton" data-tooltip="The first project">The first project</span>
+                                                <div class="cl"><div>Folder - File</div>
+                                                    <ul class="cci">
+                                                        <li class="nons">Share
+                                                            <ul>
+                                                                <li>Share folder</li>
+                                                                <li>Share file</li>
+                                                                <li>Share all</li>
+                                                            </ul>
+                                                        </li>
+                                                        <gol></gol>
+                                                        <li class="nons">Download
+                                                            <ul>
+                                                                <li>Download folder</li>
+                                                                <li>Download file</li>
+                                                                <li>Download all</li>
+                                                            </ul>
+                                                        </li>
+                                                        <gol></gol>
+                                                        <li class="vov" style="color: rgb(253, 57, 57);">Delete
+                                                            <ul>
+                                                                <li>Delete folder</li>
+                                                                <li>Delete file</li>
+                                                                <li>Delete all</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                                <div class="bon-div-text-div">
+                                                    <div class="div-menu menu_List" data-id="9">
+                                                        <button class="chat-button"><span class="material-symbols-outlined"> add </span></button>
+                                                        <div class="div-menu-div menu_List_div" style="left: auto;right: 0;width: auto;">
+                                                            <ul>
+                                                                <li><span>New folder</span></li>
+                                                                <li><span>New file</span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                        <div class="div-menu menu_List" data-id="10">
+                                                            <button class="chat-button"><span class="material-symbols-outlined"> search </span></button>
+                                                            <div class="div-menu-div menu_List_div" style="left: auto;right: 0;width: auto;">
+                                                                <ul>
+                                                                    <input type="text" placeholder="Search">
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    <div class="div-menu menu_List" data-id="11">
+                                                        <button class="chat-button"><span class="material-symbols-outlined"> tune </span></button>
+                                                        <div class="div-menu-div menu_List_div" style="left: auto;right: 0;width: auto;">
+                                                            <ul>
+                                                                <li><span>1 hour ago</span></li>
+                                                                <li><span>1 day ago</span></li>
+                                                                <li><span>A month ago</span></li>
+                                                                <li><span>1 year ago</span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <gol></gol>
+                                    <div class="bon-div-files-div">
+                                        <!-- 1 -->
+                                         <button class="bon-div-files cor">
+                                            <div><img src="image/1234.png" alt=""></div>
+                                            <input type="text" value="Page 4" placeholder="Folder">
+                                            <div class="bon-div-file-menu"><ion-icon name="ellipsis-vertical"></ion-icon></div>
+                                         </button>
+                                         <button class="bon-div-files cor">
+                                            <div><img class="v" src="image/image.png" alt=""></div>
+                                            <input type="text" value="My chat" placeholder="File">
+                                            <div class="bon-div-file-menu"><ion-icon name="ellipsis-vertical"></ion-icon></div>
+                                         </button>
+                                    </div>
+                                    <!-- ---- -->
+                                    <div class="good cor">The Exhibition</div>
+                                </div>
+                            </div>
+                            <!-- - -->
+                             <div class="bon-div zoho" style="display: flex;">
+                                <div class="bon-div-div">
+                                    <!-- 1 -->
+                                    <button class="bon-div-d">
+                                        <div class="ot">
+                                            <div class="bon-div-img cor">
+                                                <img src="https://www.computerhope.com/issues/pictures/google-drive-logo.png" alt="">
+                                            </div>
+                                            <div class="ot-text">Drive</div>
+                                        </div>
+                                        <div id="df"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                                    </button>
+                                    <!-- 2 -->
+                                    <button class="bon-div-d">
+                                        <div class="ot">
+                                            <div class="bon-div-img cor">
+                                                <img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="">
+                                            </div>
+                                            <div class="ot-text">Gmail</div>
+                                        </div>
+                                        <div id="df"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                                    </button>
+                                    <!-- 3 -->
+                                    <button class="bon-div-d">
+                                        <div class="ot">
+                                            <div class="bon-div-img cor">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="">
+                                            </div>
+                                            <div class="ot-text">Instagram</div>
+                                        </div>
+                                        <div id="df"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                                    </button>
+                                    <!-- 4 -->
+                                    <button class="bon-div-d">
+                                        <div class="ot">
+                                            <div class="bon-div-img cor">
+                                                <img src="https://seeklogo.com/images/T/tiktok-logo-B9AC5FE794-seeklogo.com.png" alt="">
+                                            </div>
+                                            <div class="ot-text">TikTok</div>
+                                        </div>
+                                        <div id="df"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                                    </button>
+                                    <!-- 5 -->
+                                    <button class="bon-div-d">
+                                        <div class="ot">
+                                            <div class="bon-div-img cor">
+                                                <img src="https://www.freeiconspng.com/thumbs/logo-twitter-png/logo-twitter-transparent-background-10.png" alt="">
+                                            </div>
+                                            <div class="ot-text">Twitter</div>
+                                        </div>
+                                        <div id="df"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                                    </button>
+                                </div>
+                             </div>
+                         </div>
+                    </div>
+                    
+                    <!-- الإعلاانات -->
+                     <div class="oli display-none display-nones">
+                        <div class="oil-m">
+                            <span>اعلان</span>
+                            <span class="tmo">Text Document</span>
+                            <button class="show-btn cor" data-target="wwc1"><span class="material-symbols-outlined">info</span></button>
+                            <button><span class="material-symbols-outlined show-btn" data-target="wwc3">close</span></button>
+                        </div>
+                        <label class="oli1" for="b6789" id="x1234">
+                            <!-- - -->
+                                     <div class="oli1-img-button">
+                                        <button class="material-symbols-outlined">arrow_back</button>
+                                        <button class="material-symbols-outlined">arrow_forward</button>
+                                     </div>
+                            <a id="link_a2345" href="#" target="_blank">
+                                <div class="oli1-img" id="z9101">
+                                    <img id="a2345" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/surface-pro-11th-edition-black-poster-mobile_tbmnl_ar-ae?fmt=png-alpha&scl=1" alt="">
+                                    
+                                </div>
+                            </a>
+                            <a id="link_y5678" href="#" target="_blank">
+                                <div class="oil-m-text" id="y5678">Buy now Huawei laptop at the best price</div>
+                            </a>
+                            <div class="oil-m-button" id="b6789" target="_blank">
+                                <button class="car ccc ripple-btn" onmousedown="createRipple(event)">Open</button>
+                            </div>
+                        </label>
+
+                        <!-- 1 -->
+                         <div class="oil2" id="wwc1" style="display: none;">
+                            <div class="oil-m">1<span class="oil-m-span">Behind</span><button class="hide-btn cor" data-target="wwc1"><span class="material-symbols-outlined">arrow_back</span></button></div>
+                            <div class="oil2-info">
+                                Advertising Policy Private Advertisement User is not allowed to create an advertisement Only <a class="ze" href="">Text Document</a> has the right to do so.
+                            </div>
+                                <div class="oil2-adds"><label id="rt" class="car ccc show-btn cor ripple-btn" onmousedown="createRipple(event)" data-target="wwc3">Why this ad?</label></div>
+                            <br>
+                                <div class="oil2-adds"><label class="car ccc show-btn cor ripple-btn" onmousedown="createRipple(event)" data-target="wwc2">Add an ad</label></div>
+                                <!-- ---------------- -->
+                             <!-- <div id="myDivThatWillFadeOutSlowly1" class="Reload-oil"><div><span></span></div></div> -->
+                            </div>
+
+                        <!-- 2 -->
+                        <form class="oil2" id="wwc2" style="display: none;">
+                            <div class="oil-m">2<span class="oil-m-span">Behind</span><button type="reset" class="hide-btn cor" data-target="wwc2"><span class="material-symbols-outlined">arrow_back</span></button></div>
+                            <div class="oil2-info" id="c3456">
+                                <span>Password:</span>
+                                <br>
+                                <input class="citv" id="d7890" type="password" placeholder="Enter the password">
+                                <br>
+                                <a>The time <span class="oil-m-span">10 / 4</span></a>
+                            </div>
+                            <div class="oil2-adds"><label onclick="checkPassword()" class="car ccc ripple-btn" onmousedown="createRipple(event)">Entrance</label></div>
+                            <!-- ---------------- -->
+                            <!-- <div id="myDivThatWillFadeOutSlowly2" class="Reload-oil"><div><span></span></div></div> -->
+                        </form>
+
+                        <!-- 3 -->
+                        <form class="oil2 hidden" id="e1234">
+                            <div class="oil-m">3<span class="oil-m-span">Behind</span><button type="reset" onclick="closeEditSection()"><span class="material-symbols-outlined">arrow_back</span></button></div>
+                            <div class="oil2-info">
+                                <div>
+                                    <span>Upload image</span>
+                                    <br>
+                                    <br>
+                                    <input id="g9101" type="file" style="display: none;">
+                                    <div class="oil2-adds"><label for="g9101" class="car ccc ripple-btn" onmousedown="createRipple(event)">Upload</label></div>
+                                    <br>
+                                    <span>Image link</span>
+                                    <br>
+                                    <textarea name="" id="imageLink" placeholder="Image link"></textarea>
+                                    <br>
+                                    <gol></gol>
+                                    <br>
+                                    <span>Ad Description</span>
+                                    <br>
+                                    <textarea name="" id="f5678" placeholder="Ad Description"></textarea>
+                                    <div class="oran">
+                                        <a class="material-symbols-outlined" onclick="alignText('left')">format_align_left</a>
+                                        <a class="material-symbols-outlined" onclick="alignText('center')">format_align_center</a>
+                                        <a class="material-symbols-outlined" onclick="alignText('right')">format_align_right</a>
+                                        <!-- <a class="material-symbols-outlined">arrow_upward</a>
+                                        <br>
+                                        B
+                                        <input type="color">
+                                        C
+                                        <input type="color"> -->
+                                    </div>
+                                        <label for="hideTextCheckbox"><input type="checkbox" id="hideTextCheckbox" onclick="toggleTextVisibility()">Hide description</label>
+                                    <br>
+                                    <gol></gol>
+                                    <br>
+                                    <span>Button link</span>
+                                    <br>
+                                    <textarea name="" id="h2345" placeholder="Link"></textarea>
+                                    <br>
+                                    <div id="e1234"><textarea name="" id="buttonNameInput" style="resize: none;" maxlength="12" placeholder="Text button"></textarea></div>
+                                    <label for="hideButtonCheckbox"><input type="checkbox" id="hideButtonCheckbox" onclick="toggleButtonVisibility()">Hide button</label>
+                                    <!-- <div class="oran">
+                                        <a class="material-symbols-outlined">arrow_back</a>
+                                        <a class="material-symbols-outlined">arrow_forward</a>
+                                        <br>
+                                        <a class="material-symbols-outlined">arrow_downward</a>
+                                        <a class="material-symbols-outlined">arrow_upward</a>
+                                        <br>
+                                        B
+                                        <input type="color">
+                                        C
+                                        <input type="color">
+                                    </div> -->
+                                    <br>
+                                    <gol></gol>
+                                    <br>
+                                    <div class="oil2-adds" onclick="applyChanges()"><label id="rt" class="car ccc">Create</label></div>
+                                </div>
+                                <!-- ---------------- -->
+                            <div id="myDivThatWillFadeOutSlowly3" class="Reload-oil"><div><span></span></div></div>
+                            </div>
+                        </form>
+
+                        <!-- 4 -->
+                        <div class="oil2" id="wwc3" style="display: none;">
+                            <div class="oil-m">?<span class="oil-m-span">Behind</span><button class="hide-btn cor" data-target="wwc3"><span class="material-symbols-outlined">arrow_back</span></button></div>
+                            <div class="cz">
+                                <button id="rt">كان الاعلان غير ملائم</button>
+                                <button id="rt">اعلان يحجب المحتوى</button>
+                                <button id="rt">رأيت هاذا الإعلان عدة مرات</button>
+                                <button id="rt">غير مهتم بهاذا الإعلان</button>
+                            </div>
+                            <span>Text Document</span>
+                            <!-- ---------------- -->
+                             <!-- <div id="myDivThatWillFadeOutSlowly4" class="Reload-oil"><div><span></span></div></div> -->
+                        </div>
+
+                    </div>
+
+                    <!-- New-button -->
+                     <div class="new-button">
+                        <div class="new-button-div2">
+                            <button onclick="togglePrayerTimes(true)" class="material-symbols-outlined car aus kks tooltipButton" data-tooltip="Prayer times"><i class="fi fi-sr-mosque-moon"></i></button>
+                            <button class="material-symbols-outlined car aus kks tooltipButton show-btn cor" data-target="wwc7" data-tooltip="Add background"><i class="fi fi-sr-images"></i></button>
+                            <button class="material-symbols-outlined car aus kks tooltipButton" data-tooltip="Hide Ad">visibility</button>
+                            
+                            <!-- Add background -->
+                             <div class="Add-background" id="wwc7">
+                                <div class="add-bac-home">
+                                    <div class="gif-text display-none">Add background</div>
+                                    <div class="add-button"><button class="times-buttonss col" id="SaveBackgroundButton" onclick="saveBackground()"><span class="material-symbols-outlined">star</span></button><button class="times-buttonss col" id="ResetBackgroundButton" onclick="resetBackground()"><span class="material-symbols-outlined">refresh</span></button><button class="times-buttonss hide-btn cor" data-target="wwc7" style="font-size: 23px;"><span class="material-symbols-outlined">close</span></button></div>
+                                </div>
+                                <gol>
+                                <div class="add-bac-menu">
+                                    <div class="gif-text">Image</div>
+                                    <div class="sso">
+                                        <button class="add-bac-button ImageButton" data-src="image/1.jpg" onclick="setBackground('image/1.jpg', this)"><img src="image/1.jpg" alt=""></button>
+                                        <button class="add-bac-button ImageButton" data-src="image/2.jpg" onclick="setBackground('image/2.jpg', this)"><img src="image/2.jpg" alt=""></button>
+                                        <button class="add-bac-button ImageButton" data-src="https://img.freepik.com/free-photo/fresh-pink-blossoms-add-beauty-nature-growth-generated-by-ai_188544-9798.jpg?t=st=1727966927~exp=1727970527~hmac=5f5c567e71a53e4871102e8dd52c69405efb364d3c95648aac2fd5f3b2d82758&w=1380" onclick="setBackground('https://img.freepik.com/free-photo/fresh-pink-blossoms-add-beauty-nature-growth-generated-by-ai_188544-9798.jpg?t=st=1727966927~exp=1727970527~hmac=5f5c567e71a53e4871102e8dd52c69405efb364d3c95648aac2fd5f3b2d82758&w=1380', this)"><img src="https://img.freepik.com/free-photo/fresh-pink-blossoms-add-beauty-nature-growth-generated-by-ai_188544-9798.jpg?t=st=1727966927~exp=1727970527~hmac=5f5c567e71a53e4871102e8dd52c69405efb364d3c95648aac2fd5f3b2d82758&w=1380" alt=""></button>
+                                        <button class="add-bac-button ImageButton" data-src="image/3.jpg" onclick="setBackground('image/3.jpg', this)"><img src="image/3.jpg" alt=""></button>
+                                        <button class="add-bac-button ImageButton" data-src="image/4.jpg" onclick="setBackground('image/4.jpg', this)"><img src="image/4.jpg" alt=""></button>
+                                    </div>
+                                </div>
+                                <gol>
+                                <div class="add-bac-home" style="height: 45px;">
+                                    <div class="sdd">
+                                        <input type="file" id="UploadBackgroundButton" accept="image/*" style="display:none;" onchange="uploadCustomBackground(event)">
+                                        <button class="material-symbols-outlined" onclick="document.getElementById('UploadBackgroundButton').click();">Upload</button>
+                                    </div>
+                                </div>
+                             </div>
+
+                            <!-- Prayer times -->
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                             <div class="Prayer-times prayer-times-container" id="settingsDiv">
+                                <!-- onclick="getLocation()" -->
+                                <button onclick="scrollToDiv('section-4', this)" class="material-symbols-outlined times-button" style="right: auto;left: 0;"><span>code</span></button>
+                                <button onclick="togglePrayerTimes(false)" class="material-symbols-outlined times-button"><span>close</span></button></label>
+                                <div class="Prayer-image cor"><img src="image/mosque.png" alt=""></div>
+                                <div class="prayer-timesa">
+                                    <div class="prayer-menu container">
+                                        <button onclick="scrollToDiv('section-3', this)">ادعيه</button>
+                                        <button onclick="scrollToDiv('section-2', this)">الأذكار</button>
+                                        <button onclick="scrollToDiv('section-1', this)">اوقات الصلاة</button>
+                                    </div>
+                                    <div class="prayer-div">
+                                        <div id="section-1" class="prayer-div-div section">
+
+                                            <!-- ديف يحتوي على أوقات الصلاة وزر لإغلاقه -->
+                                            <div class="prayer-container">
+                                                <div class="">
+                                                    <h2 class="selected-location-title" id="date">0/0/0000</h2>
+                                                    <div class="prayer-countdown-timer">00:00:00</div>
+                                                    <div class="next-prayer-time-display">متبقي على الصلاة القادمة: <span class="next-prayer-time">PM 5:45</span></div>
+                                                    <table class="prayer-times-table">
+                                                        <thead>
+                                                        <tr>
+                                                            <th style="border-top-color: #00000000;" class="prayer-times-header">الصلاة</th>
+                                                            <th style="border-top-color: #00000000;" class="prayer-times-header">الوقت</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody class="prayer-times-body">
+                                                        <tr class="fajr-prayer-row">
+                                                            <td class="prayer-times-data">الفجر</td>
+                                                            <td class="fajr-time prayer-times-data">AM 4:27</td>
+                                                        </tr>
+                                                        <tr class="dhuhr-prayer-row">
+                                                            <td class="prayer-times-data">الظهر</td>
+                                                            <td class="dhuhr-time prayer-times-data">AM 11:43</td>
+                                                        </tr>
+                                                        <tr class="asr-prayer-row">
+                                                            <td class="prayer-times-data">العصر</td>
+                                                            <td class="asr-time prayer-times-data">PM 3:07</td>
+                                                        </tr>
+                                                        <tr class="maghrib-prayer-row">
+                                                            <td class="prayer-times-data">المغرب</td>
+                                                            <td class="maghrib-time prayer-times-data">PM 5:45</td>
+                                                        </tr>
+                                                        <tr class="isha-prayer-row">
+                                                            <td style="border-bottom-color: #00000000;" class="prayer-times-data">العشاء</td>
+                                                            <td style="border-bottom-color: #00000000;" class="isha-time prayer-times-data">PM 7:15</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                
+                                                </div>
+                                            
+                                                <div class="omg">
+                                                    <select onchange="handleCountryChange(this)" class="dropdown-selector mySelect" style="width: 150px;">
+                                                        <option value="">اختر الدولة</option>
+                                                    </select>
+                                                    <select onchange="handleCityChange(this)" class="dropdown-selector mySelect" style="width: 150px;" disabled>
+                                                        <option value="">اختر المدينة</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <!-- 1 -->
+                                         <div class="prayer-div-div section" id="section-2">
+                                            <span class="ss">اذكار الصباح</span>
+                                            <div class="prayer-div-list">أذكار الصباح
+                                                <gol></gol>
+                                                أعوذ بالله من الشيطان الرجيم
+                                                <gol></gol>
+                                                اللّهُ لا إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ.
+                                                (البقرة: 255)
+                                                <gol></gol>
+                                                بسم الله الرحمن الرحيم
+                                                <gol></gol>
+                                                قُلْ هُوَ اللَّهُ أَحَدٌ ٭ اللَّهُ الصَّمَدُ ٭ لَمْ يَلِدْ وَلَمْ يُولَدْ ٭ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ. (ثلاث مرات)
+                                                <gol></gol>
+                                                قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ٭ مِن شَرِّ مَا خَلَقَ ٭ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ٭ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ٭ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ. (ثلاث مرات)
+                                                <gol></gol>
+                                                قُلْ أَعُوذُ بِرَبِّ النَّاسِ ٭ مَلِكِ النَّاسِ ٭ إِلَهِ النَّاسِ ٭ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ٭ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ٭ مِنَ الْجِنَّةِ وَالنَّاسِ. (ثلاث مرات)
+                                                <gol></gol>
+                                                أصبحنا وأصبح الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير، ربِّ أسألك خير ما في هذا اليوم وخير ما بعده، وأعوذ بك من شر ما في هذا اليوم وشر ما بعده، ربِّ أعوذ بك من الكسل وسوء الكبر، ربِّ أعوذ بك من عذاب في النار وعذاب في القبر. (مرة واحدة)
+                                                <gol></gol>
+                                                اللهم بك أصبحنا وبك أمسينا، وبك نحيا وبك نموت وإليك النشور. (مرة واحدة)</div>
+                                            <span class="ss">اذكار المساء</span>
+                                            <div class="prayer-div-list">
+                                                أذكار المساء
+                                                <gol></gol>
+                                                أعوذ بالله من الشيطان الرجيم
+                                                <gol></gol>
+                                                اللّهُ لا إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ.
+                                                (البقرة: 255)
+                                                <gol></gol>
+                                                بسم الله الرحمن الرحيم
+                                                <gol></gol>
+                                                قُلْ هُوَ اللَّهُ أَحَدٌ ٭ اللَّهُ الصَّمَدُ ٭ لَمْ يَلِدْ وَلَمْ يُولَدْ ٭ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ. (ثلاث مرات)
+                                                <gol></gol>
+                                                قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ٭ مِن شَرِّ مَا خَلَقَ ٭ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ٭ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ٭ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ. (ثلاث مرات)
+                                                <gol></gol>
+                                                قُلْ أَعُوذُ بِرَبِّ النَّاسِ ٭ مَلِكِ النَّاسِ ٭ إِلَهِ النَّاسِ ٭ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ٭ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ٭ مِنَ الْجِنَّةِ وَالنَّاسِ. (ثلاث مرات)
+                                                <gol></gol>
+                                                أمسينا وأمسى الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير، ربِّ أسألك خير ما في هذه الليلة وخير ما بعدها، وأعوذ بك من شر ما في هذه الليلة وشر ما بعدها، ربِّ أعوذ بك من الكسل وسوء الكبر، ربِّ أعوذ بك من عذاب في النار وعذاب في القبر. (مرة واحدة)
+                                                <gol></gol>
+                                                اللهم بك أمسينا وبك أصبحنا، وبك نحيا وبك نموت وإليك المصير. (مرة واحدة)
+                                                </div>
+                                            <span class="ss">اذكار بعد الصلاة</span>
+                                            <div class="prayer-div-list">
+                                                الاستغفار ثلاث مرات
+                                                <gol></gol>
+                                                "أستغفر الله، أستغفر الله، أستغفر الله"
+                                                <gol></gol>
+                                                دعاء التوبة
+                                                <gol></gol>
+                                                "اللهم أنت السلام ومنك السلام تباركت يا ذا الجلال والإكرام"
+                                                <gol></gol>
+                                                آية الكرسي
+                                                <gol></gol>
+                                                "اللَّهُ لا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ..." (البقرة: 255)
+                                                <gol></gol>
+                                                التسبيح والتحميد والتكبير
+                                                <gol></gol>
+                                                "سبحان الله" (33 مرة)
+                                                "الحمد لله" (33 مرة)
+                                                "الله أكبر" (33 مرة)
+                                                <gol></gol>
+                                                ثم يتمم المئة بقول: "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير"
+                                                <gol></gol>
+                                                دعاء شامل
+                                                <gol></gol>
+                                                "اللهم لا مانع لما أعطيت ولا معطي لما منعت ولا ينفع ذا الجد منك الجد"
+                                                <gol></gol>
+                                                دعاء لطلب المغفرة
+                                                <gol></gol>
+                                                "اللهم أعني على ذكرك وشكرك وحسن عبادتك"
+                                                <gol></gol>
+                                                هذه الأذكار من السنن المستحبة بعد كل صلاة، ومن الأفضل المواظبة عليها لتنال الأجر والثواب    
+                                            </div>
+                                         </div>
+                                        <!-- 2 -->
+                                         <div id="section-3" class="prayer-div-div section">
+                                            <span class="ss">ادعيه</span>
+                                            <div class="prayer-div-list copyable" style="margin-top: 10px;">اللهم إني أسألك العفو والعافية في الدنيا والآخرة</div>
+                                            <div class="prayer-div-list copyable">اللهم ارزقني رزقًا حلالًا طيبًا واسعًا مباركًا فيه</div>
+                                            <div class="prayer-div-list copyable">اللهم اغفر لي ذنبي، ووسع لي في داري، وبارك لي في رزقي</div>
+                                            <div class="prayer-div-list copyable">اللهم إني أعوذ بك من الهم والحزن، وأعوذ بك من العجز والكسل</div>
+                                            <div class="prayer-div-list copyable">اللهم اجعلني من التوابين واجعلني من المتطهرين</div>
+                                            <div class="prayer-div-list copyable">اللهم اهدني وسددني واجعلني سببًا لمن اهتدى</div>
+                                            <div class="prayer-div-list copyable">اللهم إني أعوذ بك من جهد البلاء ودرك الشقاء وسوء القضاء</div>
+                                            <div class="prayer-div-list copyable">اللهم إني أسألك من الخير كله عاجله وآجله ما علمت منه وما لم أعلم</div>
+                                            <div class="prayer-div-list copyable">اللهم يا مقلب القلوب ثبت قلبي على دينك</div>
+                                            <div class="prayer-div-list copyable">اللهم ارزقني حسن الخاتمة واغفر لي ولوالدي وللمسلمين أجمعين</div>
+                                         </div>
+                                         <!-- 4 -->
+                                         <div id="section-4" class="prayer-div-div section">
+                                            <span class="ss">< iframe > التضمين بموقعك</span>
+                                            <textarea readonly class="c-sec copyable"><iframe style="height: 618px; width: 357px;" src="file:///C:/Users/Lenovo/OneDrive/Desktop/Chat%20[%20Eyad%20]/noon/iframe.html" frameborder="0"></iframe></textarea>
+                                            <gol></gol>
+                                            <span class="ss">🤲 هاذا ماتيسر لا تنسنا من صالح دعائك</span>
+                                            <div class="good cor">اخر إصدار عام ,10/1/2024م
+                                                <br>
+                                                <span><a href="#" style="text-decoration: none;color: #4d4d4d;">Text Document</a> جميع الحقوق محفوظة لدى</span>
+                                            </div>
+                                         </div>
+                                        
+                                    </div>
+                                </div>
+                                <p id="message"></p>
+                             </div>
+                        </div>
+                        <!-- --- -->
+                        <div class="Neww"><div>New</div><button id="show_fullscreen_dynamic_container_button" class="button-vvi ripple-btn" onmousedown="createRipple(event)"><span class="material-symbols-outlined rrt"> deployed_code </span></button></div>
+                    </div>
+
+                    <!-- ----- -->
+                     <div class="tascar" id="adhan-alert-container">
+                        <audio id="adhan-audio" src="image/019--1.mp3"></audio>
+                        <div class="tascar1 cor"><img src="mosque.png" alt=""></div>
+                        <div class="tascar2">
+                            <div class="tascar3"><span>مواقيت الصلاة</span><button onclick="closeAdhanAlert()" class="material-symbols-outlined times-button close-button">close</button></div>
+                            <div class="cor alert-message">
+                                لقد حان الأن وقت الأذان اترك ما بيدك واذهب الى الصلاة
+                            </div>
+                        </div>
+                     </div>
+                     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+
+                        <script>
+                            $(document).ready(function() {
+                            $('.mySelect').select2({
+                                placeholder: "اختر من القائمة",
+                                allowClear: true
+                            });
+                        
+                            // ضبط placeholder لحقل البحث داخل select2 وإظهار العنصر المختار
+                            $('.mySelect').on('select2:open', function() {
+                                // الحصول على قيمة العنصر المختار
+                                let selectedOption = $(this).find(':selected').text();
+
+                                // الوصول لحقل البحث في select2
+                                let searchField = $('.select2-container .select2-search__field');
+
+                                // ضبط placeholder ليظهر العنصر المختار أو "ابحث هنا" إذا لم يكن هناك عنصر مختار
+                                searchField.attr('placeholder', selectedOption || 'ابحث هنا');
+                            });
+                        });
+                        </script>
+
+                 </div>
+            </div>
+
+            <!--onclick-button-->
+            <div class="onclick-button">
+                <label class="xo cor" for="toggleButton">
+                    <div class="cbn">
+                        <button id="toggleButton" class="vovl vo"><div id="material-symbols-outlined" class="material-symbols-outlined">filter_list</div></button>
+                    </div>
+                    <a>Tools</a>
+                </label>
+                <label class="xo cor" for="xx">
+                    <a class="yy" style="display: inline;" target="_blank" href="https://creativecloudsit.com/?srsltid=AfmBOopsfJ32lr1CI5qDnv877I85u-7xVOyiAKh4K0dllpktZCvuZ9wV">
+                        <div class="cbn vov Neww">
+                            <div>New</div>
+                            <button id="xx" class="vovl vo xx"><img class="img-vo" src="image/logo.png" alt=""></button>
+                        </div>
+                        <!-- Developer -->
+                        <a>Creative Clouds IT</a>
+                    </a>
+                </label>
+                    <label class="xo cor" for="toggleButton2">
+                        <button id="toggleButton2" id="material-symbols-outlined" class="material-symbols-outlined vo">more_horiz</button>
+                        <a>New project</a>
+                    </label>
+            </div>
+
+            <!-- Image-GIF -->
+            <div id="overlay"></div>
+             <div class="Image-GIF display-none" id="fullscreen_toggle_dynamic_container" style="display: none">
+                <div class="Image-GIF-div">
+                    <div class="cbn-gis">
+                        <label for="cccc" class="gif-text"><button id="cccc" class="ripple-btn" onmousedown="createRipple(event)"><span class="material-symbols-outlined rrt"> deployed_code </span></button> GIF Tools</label>
+                        <div class="gif-div2"><div>Download <se>GIf</se></div><button class="omng ripple-btn" onmousedown="createRipple(event)">Image + Video</button></div>
+                        <div class="gif-button"><button class="material-symbols-outlined gix xig" id="fullscreen_content_toggle_button">fullscreen</button><button class="material-symbols-outlined gix" id="close_fullscreen_dynamic_container_button">close</button></div>
+                    </div>
+
+                    <div class="gifs">
+                        <!-- 1 -->
+                        <div class="gif-ee1">
+
+                        </div>
+
+                        <!-- 2 -->
+                         <div class="gif-ee">
+                            <!-- 1 -->
+                            <button class="gif-ee-button cor ripple-btn show-btn" data-target="wwc6" onmousedown="createRipple(event)">
+                                <div class="Upload-image">
+                                    <div class=""><img src="https://cdn-icons-png.flaticon.com/512/4906/4906292.png" alt=""></div>
+                                    <br>
+                                    <span>Image - Video</span>
+                                </div>
+                            </button>
+                            <!-- 2 -->
+                            <button class="gif-ee-button cor ripple-btn show-btn" data-target="wwc5" onmousedown="createRipple(event)">
+                                <div class="Upload-image">
+                                    <div><img src="https://purepng.com/public/uploads/large/purepng.com-photos-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596102asedt.png" alt=""></div>
+                                    <br>
+                                    <span>Upload image</span>
+                                </div>
+                            </button>
+                            <!-- 2 -->
+                            <button class="gif-ee-button cor ripple-btn show-btn" data-target="wwc4" onmousedown="createRipple(event)">
+                                <div class="Upload-image">
+                                    <div><img src="https://purepng.com/public/uploads/large/purepng.com-video-icon-galaxy-s6symbolsiconssamsungapp-iconsgalaxy-s6-icons-721522597480axbjz.png" alt=""></div>
+                                    <br>
+                                    <span>Upload video</span>
+                                </div>
+                            </button>
+                         </div>
+
+                         <!-- page -->
+                          <!-- 1 -->
+                           <div class="page-gif" id="wwc4">
+                            <div class="cbn-gis">
+                                <span class="gif-text">Upload video</span>
+                                <div class="gif-button"><button class="material-symbols-outlined gix hide-btn" data-target="wwc4" id="">arrow_back</button></div>
+                            </div>
+                            <div class="gif-vv">
+                                <!-- -- -->
+                                 <div class="gif-vv-button">
+                                    <button>Create</button>
+                                    <button>Upload</button>
+                                 </div>
+                            </div>
+                           </div>
+
+                           <!-- 2 -->
+                           <div class="page-gif" id="wwc5">
+                            <div class="cbn-gis">
+                                <span class="gif-text">Upload image</span>
+                                <div class="gif-button"><button class="material-symbols-outlined gix hide-btn" data-target="wwc5" id="">arrow_back</button></div>
+                            </div>
+                           </div>
+
+                           <!-- 3 -->
+                           <div class="page-gif" id="wwc6">
+                            <div class="cbn-gis">
+                                <span class="gif-text">Image - Video</span>
+                                <div class="gif-button"><button class="material-symbols-outlined gix hide-btn" data-target="wwc6" id="">arrow_back</button></div>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <!-- الاعلان -->
+        <div class="max-mix display-none" id="max-mix">
+            <label for="max-mix-on" class="max-mix-on"><button class="material-symbols-outlined" id="max-mix-on">arrow_forward_ios</button></label>
+            <!-- --- -->
+             <div class="max-mix-div">
+                <!-- 1 -->
+                 <div class="max-mix-div-1">
+                    <div class="max-mix-div-image">
+                        <div class="max-mix-div-img">
+                            <div><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/49/a5/e0/sur-grand-hotel.jpg?w=1200&h=-1&s=1" alt=""></div>
+                            <div><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/415408858.jpg?k=2e617bdb09401ad31eea84acfe65a624580781da7c5475c16cec72e341a11a65&o=&hp=1" alt=""></div>
+                            <div><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/235702408.jpg?k=1bb549caf51e34787ed08a85ea94bf3059e4696395f23d6ef9af2613d6d4f827&o=&hp=1" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="zoho-hoz">
+                        <div class="zoho-hoz-text"><img src="https://llllline.com/images/thumbs/0000021847_logo-for-a-spa-hotel-with-leaves-in-a-lilac-gradient-in-black-and-dark-green-circles-with-lines-on-a_800.jpeg" alt=""><span>Sarina Hotel</span></div>
+                        <div class="zoho-hoz-menu"><button class="material-symbols-outlined ripple-btn" onmousedown="createRipple(event)">share</button></div>
+                    </div>
+                 </div>
+             </div>
+        </div>
+
+
+
+        <!-- menu-hop -->
+         <div class="menu-hop" id="contextMenu">
+            <button class="ripple-btn" onmousedown="createRipple(event)"><ion-icon name="arrow-back-outline"></ion-icon>Back</button>
+            <button class="ripple-btn" onmousedown="createRipple(event)" id="reloadBtn"><ion-icon name="refresh-outline"></ion-icon>Refresh</button>
+                <div id="copyImageBtn">
+                    <div style="display: block;">
+                            <gol></gol>
+                        <button class="ripple-btn" onmousedown="createRipple(event)"><ion-icon name="image-outline"></ion-icon>Copy image</button>
+                    </div>
+                </div>
+            <button class="ripple-btn" onmousedown="createRipple(event)" id="copyImageLinkBtn" style="margin: 0;"><ion-icon name="link-outline"></ion-icon>Copy image address</button>
+         </div>
+
+
+        <script>
+               tippy('.tooltipButton', {
+            content(reference) {
+                return reference.getAttribute('data-tooltip');
+            },
+            placement: 'bottom', // وضع الـ tooltip (أعلى، أسفل، يسار، يمين)
+            animation: 'scale', // نوع الحركة (اختياري)
+            theme: 'custom', // تطبيق الاستيل المخصص
+        });
+        </script>
+
+
+</body>
+</html>

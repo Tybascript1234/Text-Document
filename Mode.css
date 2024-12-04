@@ -1,0 +1,189 @@
+
+/* 1 */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+body.dark-mode .Text-Document1-button ion-icon {
+    color: rgb(245, 245, 245);
+}
+body.dark-mode .Text-Document1-button i {
+    color: rgb(245, 245, 245);
+}
+body.dark-mode .div-menu-div li ion-icon {
+    color: rgb(245, 245, 245);
+}
+body.dark-mode .Text-Document1 {
+    background-color: #343639;
+    border-right-color: #00000000;
+}
+body.dark-mode .Text-Document2 {
+    background-color: #343639;
+}
+body.dark-mode .Text-Document2-div {
+    background-color: #343639;
+}
+body.dark-mode .coco2 {
+    color: aliceblue;
+    background-color: #a8b9e163;
+}
+body.dark-mode .coco2:active {
+    background-color: #94a6cf94;
+}
+body.dark-mode .Text-Document1-input input {
+    background: #0000;
+    color: rgb(245, 245, 245);
+}
+body.dark-mode blog {
+    background: #ffffff6b;
+}
+body.dark-mode blog span {
+    background-color: #343639;
+    color: rgb(245, 245, 245);
+}
+body.dark-mode .New-tab {
+    background-color: #8bc5ff21;
+    box-shadow: 0px -1px 0px #8bc5ff21;
+}
+body.dark-mode .New-tab blog {
+    background: #7a99b9bf;
+}
+body.dark-mode .New-tab blog span {
+    background-color: #3f4853;
+    color: rgb(245, 245, 245);
+}
+body.dark-mode .Text-Document2-div-button {
+    background: #343639;
+    box-shadow: -21px 0px 11px #343639, 21px 0px 11px #343639;
+}
+body.dark-mode .Text-Document2-div-button button {
+    color: #fffffffa;
+    fill: #fffffffa;
+    background: #f0f8ff00;
+}
+body.dark-mode .Text-Document2-div-button button:hover {
+    background: #f0f8ff14;
+}
+body.dark-mode .Text-Document2-div-acunt {
+    color: #fffffffa;
+    fill: #fffffffa;
+    background: #f0f8ff14;
+}
+body.dark-mode .logo-div span {
+    background-color: rgba(255, 255, 255, 0);
+}
+body.dark-mode .Text-Document {
+    background-color: #343639;
+}
+body.dark-mode .div-menu-div {
+    background-color: #494e55;
+}
+body.dark-mode .div-menu-div li {
+    color: #f7f7f7;
+}
+body.dark-mode .div-menu-div li.last-hovered {
+    background-color: #9daac347;
+}
+body.dark-mode .menu_List_div.opened li:first-child {
+    background-color: #9daac347;
+}
+body.dark-mode .Text-Document1-button:hover {
+    background-color: #f0f8ff14;
+}
+body.dark-mode .Text-Document1-button:focus {
+    background-color: #f0f8ff14;
+}
+body.dark-mode .div-menu-div {
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 15%);
+}
+body.dark-mode gol {
+    background-color: #ffffff2e;
+}
+body.dark-mode .Neww::before {
+    border: solid 2px #343639;
+}
+body.dark-mode .onclick-button {
+    background-color: #343639;
+}
+body.dark-mode .pag-file-button button:hover {
+    background-color: #f0f8ff14;
+}
+body.dark-mode .pag-file-button button {
+    color: #f7f7f7;
+}
+body.dark-mode .co:hover {
+    box-shadow: inset 1px 0 0 #dadce029, inset -1px 0 0 #dadce029, 0 1px 2px 0 rgb(217 217 217 / 50%), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+body.dark-mode .coco:hover:before {
+    transition: ease 0.2s;
+    background-color: #dadce029;
+    width: 5px;
+}
+body.dark-mode .stop span a div {
+    color: #f7f7f7;
+    background: #ffffff24;
+}
+/* body.dark-mode .rrol {
+    background-color: #00000000;
+} */
+body.dark-mode .xo a {
+    color: #f7f7f7;
+    display: block;
+}
+body.dark-mode .New-tab-div-text {
+    color: #000;
+}
+body.dark-mode .New-tab-div-name-div span {
+    color: black;
+}
+body.dark-mode .Text-Document1-sea {
+    color: #f7f7f7;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body.dark-mode .onclick-button {
+    box-shadow: 0px -1px 0px #ffffff6b;
+    }
+    body.dark-mode .onclick-button:hover {
+        box-shadow: 0px -1px 0px #ffffff6b;
+    }
+    body.dark-mode .rrol {
+        background-color: #00000000;
+        /* color: white; */
+    }
+    body.dark-mode .rrol::before {
+        background-color: #8dcaff59;
+    }
+    body.dark-mode .onclick-button button span {
+        color: white;
+    }
+    body.dark-mode .onclick-button button ion-icon {
+        color: white;
+    }
+    body.dark-mode .xo .vo #material-symbols-outlined {
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+/* 2 */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* 3 */
+body.system-mode {
+    background-color: #f5f5f5;
+    color: black;
+}

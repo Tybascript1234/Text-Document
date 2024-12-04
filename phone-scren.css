@@ -1,0 +1,395 @@
+.Text-Document .oo {
+    display: none;
+}
+.xo a {
+    display: none;
+}
+/* 1 */
+@media screen and (max-width:600px) {
+    .Text-Document2-div-button {
+        margin: 0;
+    }
+    .div-button button,.cvb {
+        display: none;
+    }
+    .Text-Document .oo {
+        display: flex;
+        font-size: 18px;
+    }
+    .tt {
+        /* right: -3px; */
+    }
+    .Text-Document .New-tab-div {
+        margin: 0 20px;
+        width: auto;
+    }
+    .display-none {
+        display: none;
+    }
+    .New-tabs {
+        margin-top: 70px;
+    }
+    .New-tab-r-b {
+        z-index: 10;
+        /* display: none; */
+    }
+    .Text-Document {
+        height: -webkit-fill-available;
+        margin-bottom: 80px;
+    }
+    .Text-Document .Text-Document1 {
+        display: block;
+        animation: 0.5s ease 0s 1 normal forwards running showDiv;
+        position: absolute;
+        z-index: 205;
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        padding-right: 16px;
+        right: 0;
+        width: -webkit-fill-available;
+    }
+    .Text-Document1 .cvm {
+        left: auto;
+        /* right: -3px; */
+    }
+    button {
+        cursor: context-menu;
+    }
+    .Text-Document1 .cvm li,.pag-file,.pag-file-button button,.Text-Document2-arrow,.Text-Document2-div-acunt,.div-menu-div li,.name-sos button,.div-button-menu,.stop,.xo,#innerDiv {
+        cursor: context-menu;
+    }
+    /* -- */
+    @keyframes showDiv {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+            flex: 1 1 auto;
+        }
+        to {
+            flex: 1 1 auto;
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes hideDiv {
+        from {
+            opacity: 1;
+            transform: scale(1);
+            flex: 1 1 auto;
+        }
+        to {
+            padding-left: auto;
+            flex:  1 1 auto;
+            opacity: 0;
+            transform: scale(0.9);
+        }
+    }
+    .onclick-button {
+        cursor: context-menu;
+        justify-content: space-around;
+        background-color: rgb(255, 255, 255);
+        /* animation: ffi 0.7s; */
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 35px;
+        /* width: max-content; */
+        bottom: 0;
+        /* width: 100%; */
+        /* height: 80px; */
+        overflow: hidden;
+        padding: 12px 0 16px;
+        top: auto;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0px -1px 0px #f1f1f1;
+    }
+    .onclick-button:hover {
+        width: 100%;
+        box-shadow: 0px -1px 0px #f1f1f1;
+    }
+    .onclick-button button {
+        width: 56px;
+        height: 32px;
+    }
+    .onclick-button .cbn {
+        /* display: none; */
+        width: auto;
+        filter: none;
+    }
+    .onclick-button:hover .cbn {
+        width: max-content;
+        margin: auto;
+    }
+    .Reload-div {
+        width: 400px;
+        text-align: center;
+    }
+    .Reload-div-logo .logo {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .Reload-div-logo {
+        animation: none;
+        display: grid;
+        margin: auto;
+        justify-content: center;
+    }
+    .Text-Document2-arrow {
+        animation: ffi 0.7s;
+    }
+    /* .Text-Document2-div-acunt {
+        animation: ffi 0.7s;
+    } */
+    .news {
+    position: absolute;
+    z-index: 20;
+    }
+    .Text-Document .bon {
+        height: auto;
+        padding: 10px;
+    }
+    .add-new-tab {
+        position: relative;
+        display: flex;
+        margin: auto;
+        padding-right: 4px;
+    }
+    .add-new-tab button {
+        margin-right: 0;
+    }
+    .vip {
+        position: relative;
+        margin: 0;
+        box-shadow: none;
+        margin-top: 10px;
+        width: auto;
+        justify-content: space-between;
+    }
+    .news {
+        margin: 10px;
+        width: -webkit-fill-available;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0px 15px 49px #00000040, 0px 1px 1px #0000002e;
+        z-index: 205;
+    }
+    .Text-Document1 {
+        margin-bottom: 80px;
+    }
+    .xo {
+        width: 79px;
+        height: 56px;
+        display: grid;
+    }
+    .xo a,button {
+        margin: auto;
+    }
+    .xo a {
+        text-align: center;
+        display: block;
+    }
+    .xo:hover .vo {
+        background-color: #f6f7f900;
+    }
+    .xo:active .vo {
+        background-color: #f6f7f900;
+    }
+    .vo {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    .vo button:focus {
+        background-color: #00000000;
+    }
+    .xo .vo::before {
+        transition: ease 0.3s;
+        position: absolute;
+        content: "";
+        background-color: #cbf0f800;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        margin: 0px 20px;
+        border-radius: 50px;
+    }
+    .xo .xx:hover {
+        background-color: #0f94ec00;
+    }
+    .xo .xx:focus {
+        background-color: #cbf0f8;
+    }
+    .xo .vo:focus:before {
+        background-color: #00000000;
+        margin: 0 0;
+    }
+    .xo:active .vo {
+        background-color: #00000000;
+    }
+    .xo .vo #material-symbols-outlined {
+        transition: ease 0.1s;
+        width: auto;
+        z-index: 11;
+    }
+    .xo:hover .vo #material-symbols-outlined {
+        transform: scale(1.1);
+    }
+    .xo:active .vo #material-symbols-outlined {
+        transform: rotateY(20deg);
+    }
+    /* img-vo */
+    .xo:hover .vo .img-vo {
+        transform: scale(1.1);
+    }
+    .xo:active .vo .img-vo {
+        transform: rotateY(20deg);
+    }
+    .yy .Neww div {
+        display: block;
+    }
+    .Text-Document1-button {
+        cursor: context-menu;
+    }
+    .div-menu-div ul {
+        scrollbar-width: none;
+    }
+    .div-menu-div li {
+        height: 40px;
+    }
+    .div-menu-div li .material-symbols-outlined {
+        font-size: 24px;
+    }
+    .rrol::before {
+        background-color: #cbf0f8;
+    }
+    .cc2 {
+        justify-content: right;
+        display: flex;
+    }
+    .rr {
+        /* width: min-content; */
+        left: auto;
+    }
+    .cc3 {
+        justify-content: left;
+        display: flex;
+    }
+    .cor .Neww::before {
+        display: block;
+    }
+    .Text-Document1-button:focus {
+        background-color: #f6f7f9;
+    }
+    .New-tab-r-b {
+        bottom: -4px;
+        left: -10px;
+        border: none;
+        padding: 3px 9px;
+    }
+    .New-tab-r-b2 {
+        display: flex;
+        top: -8px;
+        right: -4px;
+        left: auto;
+        bottom: auto;
+        padding: 9px 3px;
+    }
+    .new-button {
+        margin-bottom: 110px;
+    }
+    .new-button button {
+        /* width: 46px;
+        height: 46px; */
+    }
+    .Text-Document .Image-GIF {
+        z-index: 205;
+        height: -webkit-fill-available;
+        width: 100%;
+        right: 0;
+        transform: none;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        margin-bottom: 80px;
+        border-radius: 0;
+    }
+    .Text-Document #overlay {
+        z-index: 200;
+    }
+    .gif-button .xig {
+        display: none;
+    }
+    .Text-Document .ki {
+        position: relative;
+    }
+    #myDiv123.active {
+        padding-right: 16px; /* إضافة 16 بكسل من الهامش عند الضغط */
+    }
+    .Text-Document .Add-background {
+        width: 169px;
+    }
+    .Text-Document .add-bac-menu {
+        justify-content: center;
+        scrollbar-width: none;
+    }
+    .sso {
+        justify-content: center;
+    }
+    .Text-Document .add-button {
+        width: 100%;
+    }
+    .Text-Document .add-bac-home {
+        padding: 0 10px;
+    }
+}
+
+/* 2 */
+@media screen and (max-width:517px) {
+    .Text-Document .display-none {
+        display: none;
+    }
+    .New-tab-div {
+        height: 599px;
+        padding: 25px;
+    }
+    .ome {
+        width: -webkit-fill-available;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .New-tab-div-name {
+        padding-top: 2px;
+        padding-right: 2px;
+        overflow: auto;
+        width: 100%;
+        justify-content: space-between;
+        scrollbar-width: thin;
+        top: -39px;
+    }
+    .New-tab-div-name .name-sos button {
+        margin-right: 0;
+        margin-left: 5px;
+    }
+}
+
+/* 3 */
+@media screen and (max-width:1633px) {
+    .New-tab-div {
+        width: 570px;
+    }
+    .bon {
+        height: 370px;
+    }
+    .Text-Document .display-block {
+        display: flex;
+    }
+    .Text-Document .display-nones {
+        display: none;
+    }
+    .Text-Document1 {
+        width: 350px;
+    }
+}
