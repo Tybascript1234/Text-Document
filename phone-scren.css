@@ -327,6 +327,8 @@
     }
     #myDiv123.active {
         padding-right: 16px; /* إضافة 16 بكسل من الهامش عند الضغط */
+        max-width: none;
+        width: -webkit-fill-available;
     }
     .Text-Document .Add-background {
         width: 169px;
@@ -349,6 +351,10 @@
 
 /* 2 */
 @media screen and (max-width:517px) {
+    body .Text-Document1-input {
+        max-width: 169px;
+        overflow: hidden;
+    }
     .Text-Document .display-none {
         display: none;
     }
